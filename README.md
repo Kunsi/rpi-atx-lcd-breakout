@@ -67,7 +67,7 @@ Screw terminals | 2        | 0.42  | <https://www.reichelt.de/?ARTICLE=170222>
 Jumper          | 1        | 0.03  | <https://www.reichelt.de/?ARTICLE=119944>
 USB connector   | 1        | 0.20  | <https://www.reichelt.de/?ARTICLE=22184>
 Transistor      | 1        | 0.09  | <https://www.reichelt.de/?ARTICLE=1999>
->esistors       | 1+1+1    | 0.30  | <https://www.reichelt.de/?ARTICLE=1381><br> <https://www.reichelt.de/?ARTICLE=1315><br> <https://www.reichelt.de/?ARTICLE=1338>
+Resistors       | 1+1+1    | 0.30  | <https://www.reichelt.de/?ARTICLE=1381><br> <https://www.reichelt.de/?ARTICLE=1315><br> <https://www.reichelt.de/?ARTICLE=1338>
 GPIO connector  | 1        | 0.11  | [https://de.aliexpress.com/…/32454935478.html](https://de.aliexpress.com/item/100pcs-lot-2-54mm-Double-Row-Female-12P-Straight-Header-Pitch-Socket-Strip-2X20-Pin/32454935478.html)
 ATX connector   | 1        | 0.43  | <http://www.mouser.de/ProductDetail/TE-Connectivity/1-1775099-3/>
 
