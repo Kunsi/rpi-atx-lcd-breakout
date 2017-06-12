@@ -53,6 +53,24 @@ The board itself offers a variety of features:
 
 Note: All pin numbers use BOARD numbering.
 
+## Cost
+Prices are in Euro, and are based on my prototype production cost
+
+Item            | Count    | Price | Link
+----------------|---------:|------:|---
+PCB             | 1        | 1.70  | [PCBway](https://www.pcbway.com/) got me 10 boards for 17$
+Fan connector   | 2        | 0.42  | <https://www.reichelt.de/?ARTICLE=185658>
+Pin header      | 3+2 wide | 0.09  | <https://www.reichelt.de/?ARTICLE=119891>
+Potentiometer   | 1        | 0.38  | <https://www.reichelt.de/?ARTICLE=14951>
+LCD connector   | 1        | 0.52  | <https://www.reichelt.de/?ARTICLE=175351>
+Screw terminals | 2        | 0.42  | <https://www.reichelt.de/?ARTICLE=170222>
+Jumper          | 1        | 0.03  | <https://www.reichelt.de/?ARTICLE=119944>
+USB connector   | 1        | 0.20  | <https://www.reichelt.de/?ARTICLE=22184>
+Transistor      | 1        | 0.09  | <https://www.reichelt.de/?ARTICLE=1999>
+Resistors       | 1+1+1    | 0.30  | <https://www.reichelt.de/?ARTICLE=1381> <https://www.reichelt.de/?ARTICLE=1315> <https://www.reichelt.de/?ARTICLE=1338>
+GPIO connector  | 1        | 0.11  | [https://de.aliexpress.com/…/32454935478.html](https://de.aliexpress.com/item/100pcs-lot-2-54mm-Double-Row-Female-12P-Straight-Header-Pitch-Socket-Strip-2X20-Pin/32454935478.html)
+ATX connector   | 1        | 0.43  | <http://www.mouser.de/ProductDetail/TE-Connectivity/1-1775099-3/>
+
 ## Links
 * [OctoPrint-PSUControl](https://github.com/kantlivelong/OctoPrint-PSUControl) by kantlivelong
 * [Octoprint-LCD-HD44780](https://github.com/Kunsi/Octoprint-LCD-HD44780) by Kunsi
