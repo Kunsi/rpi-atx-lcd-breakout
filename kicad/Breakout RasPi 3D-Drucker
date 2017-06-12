@@ -1,0 +1,77 @@
+*PADS-PCB*
+*PART*
+ P3 Socket_Strips:Socket_Strip_Straight_2x20
+ P4 Pin_Headers:Pin_Header_Straight_2x08
+ RV1 Potentiometers:Potentiometer_Trimmer-Piher_PT15-V17-5_horizontal
+ R1 Resistors_THT:Resistor_Horizontal_RM15mm
+ P1 Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol
+ P2 Connectors_Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_2pol
+ R2 Resistors_THT:Resistor_Horizontal_RM15mm
+ Q1 TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval
+ R3 Resistors_THT:Resistor_Horizontal_RM15mm
+ R5 Resistors_THT:Resistor_Horizontal_RM15mm
+
+*NET*
+*SIGNAL* LCD_D4
+ P4.11
+ P3.21
+*SIGNAL* LCD_D6
+ P4.13
+ P3.23
+*SIGNAL* LCD_D5
+ P4.12
+ P3.22
+*SIGNAL* LCD_D7
+ P4.14
+ P3.24
+*SIGNAL* LCD_ENABLE
+ P3.16
+ P4.6
+*SIGNAL* LCD_RS
+ P4.4
+ P3.15
+*SIGNAL* Net-(P4-Pad15)
+ P4.15
+ R1.1
+*SIGNAL* +3V3
+ P2.1
+ P3.11
+ R2.1
+*SIGNAL* GND
+ P3.34
+ RV1.3
+ P3.25
+ P3.39
+ P4.1
+ P4.5
+ P3.6
+ P3.9
+ P3.20
+ P3.30
+ P4.16
+ P1.2
+ R2.2
+ Q1.3
+*SIGNAL* Net-(Q1-Pad1)
+ Q1.1
+ R3.1
+*SIGNAL* Net-(P3-Pad12)
+ P3.12
+ R3.2
+*SIGNAL* PS_ON
+ Q1.2
+ P2.2
+*SIGNAL* Net-(R5-Pad1)
+ RV1.1
+ R5.1
+*SIGNAL* Net-(P4-Pad3)
+ RV1.2
+ P4.3
+*SIGNAL* +5V
+ P3.2
+ R1.2
+ P3.4
+ R5.2
+ P1.1
+ P4.2
+*END*
