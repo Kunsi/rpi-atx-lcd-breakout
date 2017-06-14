@@ -7,20 +7,24 @@ While it does have a 40pin GPIO connector, it will also work with older
 26-pin variants of the Pi.
 
 The board was created to provide a convenient interface for two
-[Octoprint](http://octoprint.org/) plugins: PSUControl and LCD-HD44780 (See
-links on bottom of this page).
+[Octoprint](http://octoprint.org/) plugins:
+[PSUControl](https://github.com/kantlivelong/OctoPrint-PSUControl) and
+[LCD-HD44780](https://github.com/Kunsi/Octoprint-LCD-HD44780) (See links on
+bottom of this page).
 
 ![Board](img/top.jpg?raw=true)
 
 The board itself offers a variety of features:
 * Powering the Pi using +5VSB (standby power)
-* Switching the PSU on and off using GPIO Pin 12
+* Switching the PSU on and off using GPIO pin 12
   
   The GPIO pin can be connected to PS_ON directly, or via a transistor. This is
   choosable using the three-pin jumper switch.
 
   Alternatively, the PSU can be forced to be on, by using the 2-pin PS_ON
   jumper.
+* Providing a "is the PSU on"-detection by wiring GPIO pin 11 to the 3v3 rail
+  of the PSU
 * Connecting a character LCD to the Pi
   
   LCD is wired as follows:
@@ -72,5 +76,6 @@ GPIO connector  | 1        | 0.11  | [https://de.aliexpress.com/…/32454935478.
 ATX connector   | 1        | 0.43  | <http://www.mouser.de/ProductDetail/TE-Connectivity/1-1775099-3/>
 
 ## Links
+* [Octoprint](http://octoprint.org/)
 * [OctoPrint-PSUControl](https://github.com/kantlivelong/OctoPrint-PSUControl) by kantlivelong
 * [Octoprint-LCD-HD44780](https://github.com/Kunsi/Octoprint-LCD-HD44780) by Kunsi
