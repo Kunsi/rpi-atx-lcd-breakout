@@ -1,6 +1,6 @@
 # RPi-ATX-LCD-Breakout
 
-This board allows you to connect an ATX power supply and a HD44780-comptible LCD
+This board allows you to connect an ATX power supply and a HD44780-compatible LCD
 screen to your Raspberry Pi (or others with compatible GPIO layout).
 
 While it does have a 40pin GPIO connector, it will also work with older 
