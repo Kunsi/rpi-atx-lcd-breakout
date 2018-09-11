@@ -21,8 +21,16 @@ The board itself offers a variety of features:
   The GPIO pin can be connected to PS_ON directly, or via a transistor. This is
   choosable using the three-pin jumper switch.
 
+   -Use pins 2 & 3 on jumper J1 to select PS_ON in direct connection mode, 
+    if your psu pulls up to 3.3V or less.  
+   -Use pins 1 & 1 on jumper J1 to select the transistor function if your 
+    psu does pull up the PS_ON line to more than 3.3V. 
+
   Alternatively, the PSU can be forced to be on, by using the 2-pin PS_ON
-  jumper.
+  jumper, J2. You can wire a switch to these pins to turn on the powersupply
+  acting like a manual overide. 
+  
+  
 * Providing a "is the PSU on"-detection by wiring GPIO pin 11 to the 3v3 rail
   of the PSU
 * Connecting a character LCD to the Pi
